@@ -1,0 +1,45 @@
+
+body{
+    background-color: #202020
+}
+.bodyContainer{
+    color: beige;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #0000ff;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+.carousel-indicators .active {
+    width: 4px;
+    height: 4px;
+    margin: 10px;
+    background-color: #ffff99;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 20px;
+    width: 20px;
+    
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    
+}
+ /* Container holding the image and the text */
+ .borderr{
+   border-radius: 5px;
+ }
+ .parapd{
+   padding-top: 14px;
+ }
+ .imgpd{
+   padding-top: 18px;
+ }
